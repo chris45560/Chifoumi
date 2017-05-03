@@ -211,25 +211,3 @@
 	}
 
 // });
-
-	/********* COMMUNICATION AVEC LE SERVEUR *************/
-//
-// 	$("#run").on('click',function(){
-//
-// 		$.get("inc/partie.php", function(partie) {
-// 			console.log( "success" );
-// 			console.log(partie);
-// 			$("#run").html("Attente Joueur...");
-// 			$("#target").html(partie);
-// 		})
-// 		.done(function() {
-// 			console.log( "second success" );
-// 		})
-// 		.fail(function() {
-// 			console.log( "error" );
-// 		})
-// 		.always(function() {
-// 			console.log( "finished" );
-// 		});
-// 	});
-// });
