@@ -150,25 +150,3 @@ button{
 		width: 24%;
 	}
 }
-
-/************ COMMENTAIRES *************/
-
-/*
-img:active {
-	border: 2px solid black;
-}
-*/
-/*
-h1{
-	animation-name: testanim;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-*/
-/*
-@keyframes testanim{
-	0% {font-size: 3rem;}
-	50% {font-size: 1.5rem;}
-	100% {font-size: 3rem;}
-}
-*/
