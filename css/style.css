@@ -1,0 +1,174 @@
+/************ GENERAL RULES *************/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	background-color: black;
+	font-family: 'VT323', monospace;
+}
+
+h1,
+h2{
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+h2{
+	font-size: 1.7rem;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 3rem;
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 4px 4px 4px 4px black;
+	text-shadow: 2px 2px 2px black;
+}
+
+img{
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	max-width: 150px;
+	max-height: 150px;
+	display: block;
+}
+
+div{
+	margin: 0 auto;
+	width: 95%;
+	text-align: center;
+}
+
+div a{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	margin: 5px 0;
+	font-size: 1rem;
+}
+
+div a:hover{
+	background-color: transparent;
+}
+
+div a img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+button{
+	padding: 20px;
+	margin: 20px auto;
+	font-size: 2rem;
+	display: block;
+	text-shadow: 1px 1px 1px black;
+}
+
+/************ GENERAL CLASSES RULES *************/
+
+.modeordi,
+.modedeuxjoueurs{
+	border: 2px solid white;
+	box-shadow: 4px 4px 4px 4px white;
+	text-shadow: 2px 2px 2px white;
+	padding: 20px;
+}
+
+.score{
+	text-align: center;
+}
+
+/************ #IMAGESUSER RULES *************/
+
+#imagesuser img:hover {
+	border: 5px solid red;
+}
+
+#imagesordi a:hover{
+	cursor: not-allowed;
+}
+
+/************ #RESULTAT RULES *************/
+
+#resultat{
+	font-size: 1.7rem;
+	color: #D62626;
+	margin: 0;
+}
+
+/************ #SCOREUSERTITRE + #SCOREORDITITRE RULES *************/
+
+#scoreusertitre,
+#scoreordititre{
+	display: inline;
+}
+
+/************ #IMAGESJOUEUR2 + #SCOREJOUEUR2TITRE RULES *************/
+
+#imagesjoueur2 img:hover {
+	border: 5px solid blue;
+}
+
+#scorejoueur2titre{
+	display: inline;
+}
+
+/************ MEDIA QUERY RULES *************/
+
+@media screen and (min-width: 400px){
+
+	div a{
+		width: 32%;
+	}
+}
+
+@media screen and (min-width: 600px){
+
+	div a{
+		width: 24%;
+	}
+}
+
+/************ COMMENTAIRES *************/
+
+/*
+img:active {
+	border: 2px solid black;
+}
+*/
+/*
+h1{
+	animation-name: testanim;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+*/
+/*
+@keyframes testanim{
+	0% {font-size: 3rem;}
+	50% {font-size: 1.5rem;}
+	100% {font-size: 3rem;}
+}
+*/
